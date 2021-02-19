@@ -1,12 +1,8 @@
 name: Run Commands
 
 on:
-  push:
-    branches: [ main ]
-  pull_request:
-    branches: [ main ]
-  workflow_dispatch:
-
+  push
+  
 jobs:
   job1:
     runs-on: ubuntu-latest
