@@ -35,5 +35,7 @@ jobs:
         run: |
           git status
           touch hello.txt
+          git add .
+          git commit -m "new file created"
           python3 test.py
           
