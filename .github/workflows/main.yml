@@ -20,6 +20,7 @@ jobs:
           pwd
           git status
           touch hello.txt
+          touch hello2.txt
           git status
           git add .
           git status
