@@ -42,5 +42,10 @@ jobs:
         path: public
     - run: |
         git status
-
-  
+        
+  jobs3:
+    runs-on: ubuntu-latest
+    steps:
+      - name: "Run os.py"
+        run: |
+          python3 os.py
